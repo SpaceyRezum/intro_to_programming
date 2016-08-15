@@ -285,7 +285,7 @@ displayNavBarBelowHeader();
 displayNavContentBelowHeader();
 
 // InitializeMap had to modified to work with bootstrap's tabs
-$("a[href='#mapDiv']").click(function() {
+$("a[href='#mapDiv']").one('click', function() {
     window.setTimeout(function() {
         initializeMap();
     },200);

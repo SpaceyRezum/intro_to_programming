@@ -147,11 +147,14 @@ a {
 }
 #skills-ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 105%;
 }
 #skills-ul span {
     padding: 5%;
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .purple {
     background-color: #120a21;

@@ -9,310 +9,274 @@ h3,
 h4,
 h5,
 h6 {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
-
 .clear-fix {
-  overflow: auto;
+    overflow: auto;
 }
-
 #role {
-  color: white;
-  font-weight: bold;
-  margin-left: 1%;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
 }
-
 .nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
-
 #navbar a {
-  color: #310a53;
+    color: #310a53;
 }
-
 #navbar .active a {
-  color: white;
-  background-color: #120a21;
+    color: white;
+    background-color: #120a21;
 }
-
 #navcontent a {
-  font-size: large;
-  color: #310a53;
-  padding-top: 1%;
+    font-size: large;
+    color: #310a53;
+    padding-top: 1%;
 }
-
 .education-entry {
-  padding: 0px 5% 16px;
+    padding: 0px 5% 16px;
 }
-
+#education h3 {
+    text-decoration: underline;
+}
+.fa {
+  display: flex;
+  align-items: center;
+}
+.footer-text {
+  text-align: center;
+  font-size: x-large;
+  padding: 0;
+  color: gray;
+}
+#lets-connect a {
+ color: inherit;
+}
 #online_courses {
-  margin-top: 15px;
+    margin-top: 15px;
 }
-
 .work-entry,
 .project-entry {
-  padding: 0 5%;
+    padding: 0 5%;
 }
-
 .work-entry ul {
-  font-size: 14px;
-  padding: 0 3%;
-  list-style-type: circle;
+    font-size: 14px;
+    padding: 0 3%;
+    list-style-type: circle;
 }
-
 h1 {
-  font-size: 40px;
-  color: #f5a623;
-  line-height: 48px;
-  display: inline;
+    font-size: 40px;
+    color: #f5a623;
+    line-height: 48px;
+    display: inline;
 }
-
 h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999;
-  line-height: 29px;
-  padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #999;
+    line-height: 29px;
+    padding: 10px;
 }
-
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
 }
-
 h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4a4a4a;
-  line-height: 17px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 17px;
 }
-
 h2,
 h3,
 h4,
 h5 {
-  padding: 10px 5%;
+    padding: 10px 5%;
 }
-
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: left;
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: left;
 }
-
 .location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
 }
-
 p {
-  font-size: 14px;
-  color: #333;
-  line-height: 21px;
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
 }
-
 a {
-  color: #1199c3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
-}
-
-#welcome_msg {
-  text-align: center;
-  width: 75%;
-}
-
-.welcome-message {
-  font-style: bold;
-  font-size: 25px;
-  color: #f3f3f3;
-  line-height: 28px;
-}
-
-#skills {
-  display: none;
-}
-
-#skills-h3 {
-  color: #f5ae23;
-  padding: 16px;
-  text-align: center;
-}
-
-#skills-ul {
-  display: flex;
-  justify-content: center;
-}
-
-#skills-ul span {
-  padding: 5%;
-  text-align: center;
-}
-
-.orange {
-  background-color: #f5ae23;
-}
-
-.orange-text {
-  color: #f5ae23;
-  font-weight: bold;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #fff;
-}
-
-.gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
-  clear: both;
-}
-
-.dark-gray {
-  background-color: #4a4a4a;
-}
-
-#header {
-  background: url("../images/galaxy-background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 10px;
-}
-
-.center-content {
-  padding: 2.5% 5% 1%;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-  border-radius: 50px;
-}
-
-img {
-  padding: 10px;
-}
-
-span {
-  padding: 5px;
-}
-
-#belowDetails {
-  display: none;
-}
-
-.project_images {
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.project_images img {
-  max-width: 26%;
-}
-
-.tab-content {
-  padding: 1% 0 3%;
-  ;
-}
-
-#map {
-  display: block;
-  border-radius: 35px;
-  height: 100%;
-  margin: 1% 5%;
-}
-
-.gm-style {
-  border-radius: 35px;
-}
-
-#mapDiv {
-  height: 500px;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
-/* Media queries to handle various device widths */
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  };
-}
-
-@media only screen and (max-width: 750px) {
-  .biopic {
-    width: 150px;
-  }
-
-  #role {
-    display: flex;
-    margin: 0;
-  }
-
-  .welcome-message {
-    display: none;
-  };
-}
-
-@media only screen and (min-width: 750px) {
-  #skills,
-  .biopic {
+    color: #1199c3;
+    text-decoration: none;
+    margin-top: 10px;
     display: block;
-  }
-
-  #belowDetails {
+}
+#welcome_msg {
+    text-align: center;
+    width: 75%;
+}
+.welcome-message {
+    font-weight: bold;
+    font-size: 25px;
+    color: #f3f3f3;
+    line-height: 28px;
+}
+#skills {
+    display: none;
+}
+#skills-h3 {
+    color: #f5ae23;
+    padding: 16px;
+    text-align: center;
+}
+#skills-ul {
     display: flex;
     justify-content: center;
+}
+#skills-ul span {
+    padding: 5%;
+    text-align: center;
+}
+.purple {
+    background-color: #120a21;
+    text-align: center;
+}
+.orange-text {
+    color: #f5ae23;
+    font-weight: bold;
+}
+.white-text {
+    font-weight: bold;
+    color: #fff;
+}
+.gray {
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    clear: both;
+}
+.dark-gray {
+    background-color: #4a4a4a;
+}
+#header {
+    background: url("../images/galaxy-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.center-content {
+    padding: 2.5% 5% 1%;
+}
+ul {
+    list-style-type: none;
+}
+.biopic {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    display: none;
+    border-radius: 50px;
+}
+img {
+    padding: 10px;
+}
+span {
+    padding: 5px;
+}
+#belowDetails {
+    display: none;
+}
+.project_images {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-  }
+}
+.project_images img {
+    max-width: 26%;
+}
+.tab-content {
+    padding: 1% 0 3%;
+    ;
+}
+#map {
+    display: block;
+    border-radius: 35px;
+    height: 100%;
+    margin: 1% 5%;
+}
+.gm-style {
+    border-radius: 35px;
+}
+#mapDiv {
+    height: 500px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+/* Media queries to handle various device widths */
 
-  #skills {
-    margin-left: 2%;
-    margin-top: 5%;
-  }
-
-  .work-entry p {
-    max-width: 75%;
-  };
+@media only screen and (max-width: 900px) {
+    .biopic {
+        width: 175px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .biopic {
+        width: 150px;
+    }
+    #role {
+        display: flex;
+        margin: 0;
+    }
+    .welcome-message {
+        display: none;
+    }
+}
+@media only screen and (min-width: 750px) {
+    #skills,
+    .biopic {
+        display: block;
+    }
+    #belowDetails {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #skills {
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .work-entry p {
+        max-width: 75%;
+    }
 }

@@ -1,43 +1,19 @@
 <!DOCTYPE html>
 
-<!--
-This is an HTML document. It contains information about how elements in the website
-are arranged. In other words, it describes the layout of a website.
-I can't wait to see the resumes you put together!
-Cameron Pittman, Udacity Course Developer
--->
-
-<!--
-The <head> of a website generally links to important resources the page will
-need to load. You'll see a lot of <link>s to CSS files for styles and
-<scripts> for JavaScript files to build interactions.
--->
 <html>
 
 <head>
-    <!-- This tells the browser how to read the document. -->
     <meta charset="utf-8">
-
-    <!-- Tells the browser what the title of this page should be. -->
-    <title>Alexis Bellet - Trilingual Digital Marketer</title>
-
-    <!-- Load the page styles. -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <title>Alexis Bellet - Junior Web Developer</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBIEqGx5sA7s5GWTAan0qzDUqi56YEpu84"></script>
+    <script async src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBIEqGx5sA7s5GWTAan0qzDUqi56YEpu84"></script>
 </head>
 
 <body>
     <div id="main">
-        <!--
-    Everything from here to the <script> tag below is the skeleton of your
-    website. Your code will add information to each of the sections of the
-    resume below. You can pretty easily figure out what each section will
-    display by looking at the id or at what's written between the <h2> tags.
-    -->
         <div id="header" class="center-content clear-fix">
             <ul id="topContacts" class="flex-box"></ul>
         </div>
@@ -54,11 +30,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/helper.js"></script>
     <script src="js/resumeBuilder.js"></script>
-    <!-- I have used bootstrap libraries for the nav bar & content transformation -->
-    <script src="bootstrap/js/bootstrap.js"></script>
-    <!-- In order to use the tooltips from boostrap, I had to initiate all of them by selecting them via their data-toggle attribute-->
     <script>
         $(function() {
             $('[data-toggle="tooltip"]').tooltip();
